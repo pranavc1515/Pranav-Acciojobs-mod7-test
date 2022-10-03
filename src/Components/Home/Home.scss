@@ -1,0 +1,71 @@
+.banner {
+    // position:absolute;
+    width: 1350px;
+    height: 622px;
+    margin: auto;
+    z-index: 9999;
+    left: calc(50% - 1292px/2 - 15px);
+    top: 92px;
+    background: linear-gradient(90deg,#3393b9 0%,#ABECD6 100%);
+    border-radius: 20px;
+    display: flex;
+// gap: 50%;
+// justify-content: space-between;
+}
+
+.left-section {
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 10%;
+    // margin-right: 100px;
+    >h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2A7CC7;
+    margin-bottom: 25px;
+    }
+    > h1 {
+        font-weight: 700;
+        font-size: 55px;
+        // letter-spacing: 0.2px;
+        color: #252B42;
+        margin-bottom: 25px;
+    }
+    >h4 {
+        padding-right: 100px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        color: #737373;
+
+    }
+}
+
+.right-section{
+    width: 50%;
+}
+
+.btn {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 210px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.hero-img {
+
+    margin-left: 58px;;
+}
